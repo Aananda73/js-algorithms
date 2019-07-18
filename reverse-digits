@@ -1,0 +1,12 @@
+function rev(num){
+  let revr=0;
+  while(num>0){
+    revr*=10;
+    let rem=num%10;
+    revr+=rem;
+    num=Math.floor(num/10)
+    
+    
+  }
+  document.getElementById("spc").innerHTML=(revr);
+}
