@@ -1,0 +1,23 @@
+function max(string){
+  obj={}
+  let maxx=string[0]
+  for (let x in string){
+    if (string[x] in obj ){
+      obj[string[x]]++;
+      
+      if (obj[string[x]] > obj[maxx]){
+        maxx=string[x];
+      }
+        
+      
+      
+    }else{
+      obj[string[x]]=1;
+    }
+    
+  }
+  console.log(maxx)
+  
+}
+
+max("javascript")
