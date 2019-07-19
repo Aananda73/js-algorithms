@@ -1,0 +1,10 @@
+function rev(str) {
+  let i = str.length, output = '';
+  while (i --> 0) {  
+    
+    
+    // LOL
+    output += str[i];
+  }
+  return output; 
+}
