@@ -1,0 +1,9 @@
+function is(str) {
+  let i = -1, output = '';
+  while (i ++< (str.length/2|0)) {  
+    
+    if (str[i] !== str[str.length-1-i]) return false;
+  
+  }
+  return true;
+}
